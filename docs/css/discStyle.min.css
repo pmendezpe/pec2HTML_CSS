@@ -1,0 +1,64 @@
+main {
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+main p:first-of-type {
+    margin-top: 35px;
+}
+
+h2 {
+    color: #DF3C2D;
+}
+
+.albumCover {
+    width: 500px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #DF3C2D;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+
+.line {
+    background-color: #DF3C2D;
+    width: 80%;
+    height: 1px;
+    margin-left: 120px;
+}
+
+.tracklist li {
+    text-align: left;
+    margin-left: 120px;
+}
+
+::marker {
+    color: #DF3C2D;
+}
+
+@media screen and (max-width: 1024px) {
+    main p {
+        width: 80%;
+    }
+    h3, .line, .tracklist li {
+        margin-left: 95px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    main p, .albumCover {
+        width: 90%;
+    }
+    h3, .line, .tracklist li {
+        margin-left: 5%;
+    }
+}

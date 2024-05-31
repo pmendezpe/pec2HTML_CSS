@@ -1,0 +1,114 @@
+main {
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #DF3C2D;
+}
+
+.two-columns {
+    width: 90%;
+    column-count: 2;
+    column-gap: 70px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+#concertImg {
+    width: 1200px;
+    clip-path: polygon(50% 0%, 63% 12%, 75% 0%, 87% 18%, 100% 50%, 75% 100%, 50% 80%, 25% 100%, 0% 50%, 12% 25%);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.phrase {
+    width: 100%;
+    padding:8px 0;
+    background-color: #DF3C2D;
+    margin-top: 20px;
+}
+
+.phrase p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .two-columns {
+        width: 95%;
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    #concertImg {
+        width: 100%;
+    }
+
+    .phrase {
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .phrase p {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    main {
+        width: 100%;
+    }
+
+    h1 {
+        width: 80%;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .two-columns {
+        width: 80%;
+        margin-left: 20px;
+        column-count: 1;
+        column-gap: 0;
+    }
+
+    #concertImg {
+        width: 85%;
+    }
+
+    figure {
+        margin-left: 10px;
+    }
+
+    .phrase {
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .phrase p {
+        width: 80%;
+        margin-left: 40px;
+        font-size: 18px;
+    }
+}
+

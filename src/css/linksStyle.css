@@ -1,0 +1,20 @@
+h2 {
+    color: #DF3C2D;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    main > ul > li {
+        width: 90%;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    main > ul > li > a {
+        width: 50%;
+    } 
+    main > ul {
+        margin-left: -50px;
+    }
+}
